@@ -1,0 +1,27 @@
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .pokemon-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 120px;
+  }
+  
+  .pokemon-card img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .search-input {
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
